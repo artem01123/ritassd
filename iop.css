@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+}
+.head{
+    display: flex;
+    position: relative;
+    margin: 0;
+    width:100%;
+    height:110px;
+    background-color: #FFE799
+    
+}
+.BW{
+    
+    padding-left: 425px;
+    padding-top: 35px;
+    text-align: center;
+}
+.logo{
+    height: 90px;
+    width: 200px;
+    padding-left: 50px;
+    padding-top: 8px;
+}
+.gradient{
+    height:35px;
+    weight:100%;
+    background: linear-gradient(rgb(184, 184, 184), white);
+}
+.description{
+    padding-left: 90px;
+    font-size: 23px;
+    width: 60%;
+    height: 500px;
+}
+.desc_image{
+    width: 40%;
+    height: 500px;
+}
+.one_part{
+    margin-top: 50px;
+    display: flex;
+}
+.image1{
+    padding-left: 150px;
+    width:450px;
+    height: 300px;
+}
+.image2{
+    padding-left: 150px;
+    width:450px;
+    height: 300px;
+}
+.tour{
+    text-align: center;
+}
+.ifki{
+    padding-left: 90px;
+    font-size: 23px;  
+}
+.program{
+    font-size: 23px;
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+.Ppro{
+    font-size: 25px;
+}
+.dayF{
+    
+    position: relative;
+    margin-left: 90px;
+    margin-top: 50px;
+    width:700px;
+    height:720px ;
+    border-radius: 10px;
+    border: 3px solid #000000;
+    border-color: black;
+    text-align: center;
+}
+.image_program{
+    margin-top: 218px;
+    gap: 35px;
+    width: 550px;
+    height:1350px ;
+    display: flex;
+    position: relative;
+    justify-content:center ;
+    flex-direction: column;
+    margin-left: 180px;
+}
+.image{
+    width: 800px;
+    height: 550px;
+}
+.section_pro{
+    display: flex;
+    
+}
+.dF{
+    font-size: 28px;
+}
+.desc_dF{
+    font-size: 23px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.dayT{
+    
+    margin-left: 90px;
+    margin-top: 50px;
+    width:700px;
+    height:460px ;
+    border-radius: 10px;
+    border: 3px solid #000000;
+    border-color: black;
+    text-align: center;
+}
+.dT{
+    font-size: 28px;
+}
+.desc_dT{
+    font-size: 23px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.dayTR{
+    
+    margin-left: 90px;
+    margin-top: 50px;
+    width:700px;
+    height:270px ;
+    border-radius: 10px;
+    border: 3px solid #000000;
+    border-color: black;
+    text-align: center;
+}
+.dTR{
+    font-size: 28px;
+}
+.desc_dTR{
+    font-size: 23px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.foot{
+    display: flex;
+    margin-top: 50px;
+    width:100% ;
+    height:250px;
+    background-color: #FFE799;
+    border: #000000 solid 2px;
+    border-radius: 15px;
+}
+.desc_AdoYA{
+    font-size: 21px;
+}
+.firstDiv{
+    width: 65%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.off{
+    margin-top: 22px;
+    font-size: 23px;
+    
+}
+.offH{
+    
+    color: #000000;
+}
+.gmail{
+    padding-left: 270px;
+    padding-top: 50px;
+    text-align: right;
+    font-size: 21px;
+}
+
+.soc{
+    gap: 10px;
+    margin-top: 15px;
+    margin-left: 400px;
+}
+.socIMG{
+    width: 50px;
+    height: 50px;
+}
+.socIMGW{
+    width: 55px;
+    height: 55px;
+}
+.himg{
+    text-decoration: none;
+}
+/* --- Адаптация под телефоны --- */
+/* --- Адаптация под телефоны --- */
+@media (max-width: 768px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        font-size: 16px;
+    }
+
+    /* Верхняя часть */
+    .head {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+    }
+
+    .logo {
+        width: 140px;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .BW {
+        padding: 0;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /* Описание */
+    .one_part {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .description {
+        width: 90%;
+        height: auto;
+        padding: 0 10px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .desc_image {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .image1, .image2 {
+        width: 90%;
+        height: auto;
+        padding-left: 0;
+    }
+
+    /* Текст под описанием */
+    .ifki {
+        padding-left: 0;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    /* Раздел с днями */
+    .section_pro {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dayF, .dayT, .dayTR {
+        width: 90%;
+        margin: 15px 0;
+        height: auto;
+        text-align: center;
+    }
+
+    /* Фото после каждого дня (каждое отдельно) */
+    .image_program {
+        display: flex;
+        justify-content:right;
+        flex-direction: column;
+        margin: 0;
+        align-items: end;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .image {
+        width: 90%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    /* Кнопки — центр */
+    .btn-container {
+        width: 100%;
+        
+        padding-left: 0px;
+        display: flex;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin: 20px 0;
+    }
+
+    .tour, .program, .dF, .dT, .dTR {
+        text-align: center;
+    }
+
+    .section_pro {
+        text-align: center;
+    }
+
+
+
+    .btn {
+        width: 80%;
+        height: 55px;
+        font-size: 18px;
+        text-align: center;
+        background-color: #FFE799;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+    }
+
+    .btn:hover {
+        background-color: #ffdf74;
+    }
+
+    /* Футер — без прокрутки, на всю ширину */
+    .foot {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 20px 0;
+        background-color: #FFE799;
+        border-radius: 0;
+        border: none;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .firstDiv, .twoDiv {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .desc_AdoYA {
+        font-size: 18px;
+        padding: 0 10px;
+    }
+
+    .gmail {
+        padding: 0;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .soc {
+        margin: 10px 0;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .socIMG, .socIMGW {
+        width: 45px;
+        height: 45px;
+    }
+}
+/* --- Адаптация под ноутбуки --- */
+@media (max-width: 1280px) and (min-width: 769px) {
+
+    .description {
+        width: 80%;
+        font-size: 20px;
+        padding-left: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .one_part {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .desc_image {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .image1, .image2 {
+        width: 80%;
+        padding-left: 0;
+        height: auto;
+    }
+
+    .dayF, .dayT, .dayTR {
+        width: 80%;
+        margin: 20px auto;
+        height: auto;
+    }
+
+    .image_program {
+        width: 80%;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .image {
+        width: 100%;
+        height: auto;
+    }
+
+    .btn-container {
+        justify-content: center;
+        margin: 20px auto;
+    }
+
+    .btn {
+        width: 300px;
+    }
+}
